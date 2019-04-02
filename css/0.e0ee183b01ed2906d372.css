@@ -1,0 +1,172 @@
+@font-face {
+  font-weight: 400;
+  font-family: "BrandonGrotesque";
+  src: url(/fonts/b0e20388e9a5453de805b5e60129fa1a.woff) format("woff"), url(/fonts/95ae92774c2ff5fa43c3d87e8492a47f.woff2) format("woff2"); }
+
+@font-face {
+  font-weight: 700;
+  font-family: "BrandonGrotesque";
+  src: url(/fonts/3766077895504177a54c63ce80ed6186.woff) format("woff"), url(/fonts/54159816099f1b50c682773287ce9b11.woff2) format("woff2"); }
+
+@font-face {
+  font-weight: 900;
+  font-family: "BrandonGrotesque";
+  src: url(/fonts/0d47c663c1aa84f50ece54ecbfe7046d.woff) format("woff"), url(/fonts/01849a3c80a8e959bb6ec9d527984a17.woff2) format("woff2"); }
+
+@font-face {
+  font-weight: 400;
+  font-family: "OpenSans";
+  src: url(/fonts/110799f9941a6df2379e5b51d519969e.woff) format("woff"), url(/fonts/d7d5d4588a9f50c99264bc12e4892a7c.ttf) format("truetype"), url(/images/openSans-regular.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 700;
+  font-family: "OpenSans";
+  src: url(/fonts/03e120b3be66c54be0648df3d1967e90.woff) format("woff"), url(/fonts/f5331cb6372b6c0d8baf2dd7e200498c.ttf) format("truetype"), url(/images/openSans-bold.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 700;
+  font-style: italic;
+  font-family: "OpenSans";
+  src: url(/fonts/09a987a50beaf7787df5958612210244.woff) format("woff"), url(/fonts/f40598dd8ea8593e91ab28aa48130cf1.ttf) format("truetype"), url(/images/openSans-boldItalic.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 800;
+  font-family: "OpenSans";
+  src: url(/fonts/4bfce1faa049f5e880e12d695d18d16d.woff) format("woff"), url(/fonts/49f89e34d03233b1f27788f75df7a40a.ttf) format("truetype"), url(/images/openSans-extraBold.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 800;
+  font-style: italic;
+  font-family: "OpenSans";
+  src: url(/fonts/7a273619f62898ea78fce1cc9406fc2c.woff) format("woff"), url(/fonts/617beb2703a6fccd227ab45754d73440.ttf) format("truetype"), url(/images/openSans-extraBoldItalic.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 400;
+  font-style: italic;
+  font-family: "OpenSans";
+  src: url(/fonts/b9bcedd1b1e86b5b68cfeeea23d8b76c.woff) format("woff"), url(/fonts/bf243bcbf81560535385c47725f57dfe.ttf) format("truetype"), url(/images/openSans-italic.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 600;
+  font-family: "OpenSans";
+  src: url(/fonts/78574eae43b67feb7395063fb88af132.woff) format("woff"), url(/fonts/e1c83f9474e0cc1d84a13c6d1ddf3ca5.ttf) format("truetype"), url(/images/openSans-semiBold.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 600;
+  font-style: italic;
+  font-family: "OpenSans";
+  src: url(/fonts/7ded573eb01b7bbedc9f0e1b6289c667.woff) format("woff"), url(/fonts/fc17ea62c914b2aaa9e89ecc519a8cb3.ttf) format("truetype"), url(/images/openSans-semiBoldItalic.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 300;
+  font-family: "OpenSans";
+  src: url(/fonts/944709efb2bdca0b07cd3b6886f86f71.woff) format("woff"), url(/fonts/9ff12f694e5951a6f51a9d63b05062e7.ttf) format("truetype"), url(/images/openSans-light.svg#OpenSans) format("svg"); }
+
+@font-face {
+  font-weight: 300;
+  font-style: italic;
+  font-family: "OpenSans";
+  src: url(/fonts/497b779093b01bdfd16babd7e530ce3c.woff) format("woff"), url(/fonts/54b4443404115cef4af765596ccf0ed3.ttf) format("truetype"), url(/images/openSans-lightItalic.svg#OpenSans) format("svg"); }
+
+.preloader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* doiuse-disable calc */
+.dialog {
+  display: inline-block; }
+  .dialog__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.7rem 1.3rem; }
+    @media (min-width: 590px) {
+      .dialog__header {
+        padding: 1rem 1.8rem; } }
+  .dialog__content {
+    padding: 1rem 1.3rem;
+    border-top: 0.1rem solid #e5e5e5;
+    border-bottom: 0.1rem solid #e5e5e5; }
+    @media (min-width: 590px) {
+      .dialog__content {
+        padding: 1.5rem 1.8rem; } }
+  .dialog__actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 0.7rem 1.3rem; }
+    @media (min-width: 590px) {
+      .dialog__actions {
+        padding: 1rem 1.8rem; } }
+  .dialog__paper {
+    margin: 1.5rem !important;
+    max-height: calc(100% - 2rem) !important; }
+
+.pagination-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .pagination-controls__arrow {
+    width: 0.4rem;
+    height: 0.4rem;
+    border: solid;
+    border-width: 0 0.1rem 0.1rem 0;
+    color: #777;
+    cursor: pointer; }
+    .pagination-controls__arrow_direction_left {
+      margin-right: 0.5rem;
+      -webkit-transform: rotate(135deg);
+              transform: rotate(135deg); }
+    .pagination-controls__arrow_direction_right {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+    .pagination-controls__arrow_hidden {
+      visibility: hidden; }
+  .pagination-controls__page {
+    margin-right: 0.5rem;
+    color: #777;
+    cursor: pointer; }
+    .pagination-controls__page_active {
+      -webkit-box-shadow: 0 0.1rem;
+              box-shadow: 0 0.1rem;
+      color: black; }
+
+.search-form__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.8rem; }
+
+.search-form__settings {
+  margin-left: 0.6rem; }
+
